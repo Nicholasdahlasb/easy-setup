@@ -1,12 +1,4 @@
 sudo pacman -Syu
-sudo pacman -S snapd
-sudo systemctl enable –now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-snap version
-sudo snap install pycharm-community –classic
-sudo pacman -S --needed --noconfirm base-devel
-sudo pacman -S --needed python 
-yay -S --needed pycharm-community 
 sudo pacman -S --needed vim
 sudo pacman -S --needed nano
 sudo pacman -S --needed gcc
@@ -44,4 +36,12 @@ sudo pacman -S --needed mariadb
 sudo pacman -S --needed sqlite
 sudo pacman -S --needed mongodb
 sudo pacman -S --needed redis
+sudo pacman -S snapd
+sudo systemctl enable –now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+snap version
+sudo snap install pycharm-community –classic
+sudo pacman -S --needed --noconfirm base-devel
+sudo pacman -S --needed python 
+yay -S --needed pycharm-community 
 echo "Development environment setup complete!"
