@@ -1,3 +1,4 @@
+echo "Setting setup of Development Enviroment"
 sudo pacman -Syu
 sudo pacman -S --needed vim
 sudo pacman -S --needed nano
